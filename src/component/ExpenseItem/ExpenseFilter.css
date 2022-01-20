@@ -1,0 +1,12 @@
+.expense_filter{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.expense_filter select{
+    width: 4rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+}

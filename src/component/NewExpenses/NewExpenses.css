@@ -1,0 +1,25 @@
+.new_Expenses{
+    /* display: flexbox; */
+    /* flex-direction: row; */
+    background-color: blueviolet;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width:auto;
+    height:auto;
+    /* text-align: center; */
+
+}
+button{
+    /* align-self: center; */
+    padding: .5rem;
+    margin-left:45%;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    width: 10rem;
+    height: 3rem;
+    background-color: #450C5F;
+    color: white;
+}
