@@ -2,7 +2,7 @@ import Chart from "../chart/chart"
 
 const ExpenseChart = (props)=>{
 
-    console.log(props.filteredRecords)
+    // console.log(props.filteredRecords)
 
     let chartDatapoints=[
         {label:"Jan",price:0},
@@ -21,9 +21,9 @@ const ExpenseChart = (props)=>{
 
     for(let record of props.filteredRecords){
         let month=record.date.getMonth();
-        chartDatapoints[month].price +=record.price;
+        chartDatapoints[month].price +=Number(record.price);
     }
-    console.log(chartDatapoints)
+    // console.log(chartDatapoints)
 
     return(
         <div>

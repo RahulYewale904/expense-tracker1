@@ -2,14 +2,14 @@ import "./chart.css"
 import ChartBar from "./chartBar"
 const Chart = (props)=>{
 
-    console.log(props.datapoints)
+    // console.log(props.datapoints)
 
     let PricesArray= props.datapoints.map(row=>row.price)
 
-    console.log(...PricesArray)
+    // console.log(...PricesArray)
 
     let maxprice = Math.max(...PricesArray)
-    console.log(maxprice)
+    // console.log(maxprice)
     return(
         <div className="chart">
             {

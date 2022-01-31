@@ -10,8 +10,8 @@ const Expenses = ({ expenseData }) => {
   const [filteredYear,setfilteredYear] = useState("2020");
 
   const updatefilteredyear = (year)=>{
-    console.log("inside Expenses")
-    console.log(year);
+    // console.log("inside Expenses")
+    // console.log(year);
     setfilteredYear(year);
   }
 

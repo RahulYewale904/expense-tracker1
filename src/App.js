@@ -42,7 +42,7 @@ function App() {
 
   const getNewExpenseRecord = (d)=>{
     // alert("Hi From </App>")
-    console.log(d)
+    // console.log(d)
     setExpenseData((exp) => [d, ...exp])
   }
 
